@@ -1,0 +1,55 @@
+/* ARTICLE STYLES */
+
+.navbar
+	margin-bottom: 7vh
+
+#wrapper
+	height: 90vh
+
+@mixin grow
+	transform: scale(1.08)
+	box-shadow: -2px 3px 98px -24px rgba(0,0,0,0.75)
+	z-index: 999
+	transition: all 0.6s ease
+
+
+
+.sign1
+	display: inline-block
+	position: relative
+	background-image: url("img/avatar.jpg")
+	background-color: lighten(blue, 30%)
+	background-position: -125px 0px
+	background-size: cover
+	background-blend-mode: multiply
+	height: 80vh
+	width: 25%
+	&:hover
+		@include grow
+
+.sign2
+	display: inline-block
+	position: relative
+	background-color: lighten(lime, 30%)
+	height: 80vh
+	width: 25%
+	&:hover
+		@include grow
+
+.sign3
+	display: inline-block
+	position: relative
+	background-color: lighten(yellow, 30%)
+	height: 80vh
+	width: 25%
+	&:hover
+		@include grow
+
+.sign4
+	display: inline-block
+	position: relative
+	background-color: lighten(red, 30%)
+	height: 80vh
+	width: 25%
+	&:hover
+		@include grow
