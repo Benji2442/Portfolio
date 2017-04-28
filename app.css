@@ -194,6 +194,9 @@ h1 {
 
 #wrapper {
   height: 90vh; }
+  #wrapper #flex-wrapper {
+    display: flex;
+    flex-direction: row; }
 
 .sign1 {
   display: inline-block;
@@ -203,50 +206,66 @@ h1 {
   background-position: -125px 0px;
   background-size: cover;
   background-blend-mode: multiply;
-  height: 80vh;
-  width: 25%; }
+  height: 80vh; }
   .sign1:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    transition: all 0.6s ease; }
+    transition: all 0.6s ease-in-out; }
 
 .sign2 {
   display: inline-block;
   position: relative;
+  background-image: url("img/camera.jpg");
   background-color: #99ff99;
-  height: 80vh;
-  width: 25%; }
+  background-position: -320px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 80vh; }
   .sign2:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    transition: all 0.6s ease; }
+    transition: all 0.6s ease-in-out; }
 
 .sign3 {
   display: inline-block;
   position: relative;
+  background-image: url("img/guitar.jpg");
   background-color: #ffff99;
-  height: 80vh;
-  width: 25%; }
+  background-position: -320px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 80vh; }
   .sign3:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    transition: all 0.6s ease; }
+    transition: all 0.6s ease-in-out; }
 
 .sign4 {
   display: inline-block;
   position: relative;
+  background-image: url("img/code.jpg");
   background-color: #ff9999;
-  height: 80vh;
-  width: 25%; }
+  background-position: -320px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 80vh; }
   .sign4:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    transition: all 0.6s ease; }
+    transition: all 0.6s ease-in-out; }
 
+/* MEDIA QUERY STYLES */
+@media screen and (max-width: 500px) {
+  #flex-wrapper {
+    display: flex;
+    flex-direction: column; } }
 /* MODULE STYLES */
 
 /*# sourceMappingURL=app.css.map */

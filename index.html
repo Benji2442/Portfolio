@@ -13,6 +13,8 @@
 		<!-- BOOTSTRAP 4 ALPHA -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+		<!-- LIGHTBOX CSS -->
+		<link href="sass/0-plugins/lightbox.css" rel="stylesheet">
 
   </head>
   <body>
@@ -20,14 +22,16 @@
 
 		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-			<a class="navbar-brand" href="#">Navbar</a>
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav nav justify-content-center mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Active</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Link</a>
@@ -37,11 +41,11 @@
 		</nav>
 
 		<div class="container" id="wrapper">
-			<div class="row">
-				<div class="sign sign1"></div>
-				<div class="sign sign2"></div>
-				<div class="sign sign3"></div>
-				<div class="sign sign4"></div>
+			<div class="row" id="flex-wrapper">
+				<div class="sign sign1 col-md-3"></div>
+				<div class="sign sign2 col-md-3"></div>
+				<div class="sign sign3 col-md-3"></div>
+				<div class="sign sign4 col-md-3"></div>
 			</div>
 		</div>
 
@@ -52,9 +56,10 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 		<!-- APP.JS -->
-		<script type="text/javascript" src="/js/app.js">
+		<script type="text/javascript" src="/js/app.js"></script>
 
-		</script>
+		<!-- LIGHTBOX.JS -->
+		<script src="js/lightbox.js"></script>
 
   </body>
 </html>
