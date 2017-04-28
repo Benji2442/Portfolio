@@ -205,6 +205,7 @@ h1 {
   background-color: #9999ff;
   background-position: -125px 0px;
   background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: multiply;
   height: 80vh; }
   .sign1:hover {
@@ -265,11 +266,12 @@ h1 {
   color: #FFF; }
   .overlay h2 {
     position: relative;
-    top: 75px;
-    left: -50px;
-    text-align: left;
     color: #FFF;
-    transform: rotate(90deg); }
+    transform: rotate(90deg);
+    transform-origin: top left 0;
+    width: 100%;
+    margin-left: 75px;
+    margin-top: 10px; }
     .overlay h2::first-letter {
       font-size: 2em;
       padding-right: 2px; }
@@ -279,16 +281,14 @@ a:hover .overlay {
   background: rgba(0, 0, 0, 0.6); }
 
 /* MEDIA QUERY STYLES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sign {
     display: block;
     height: 20vh;
     background-position: center; }
     .sign h2 {
       transform: rotate(0deg);
-      position: relative;
-      bottom: 10px;
-      left: 20px; } }
+      position: relative; } }
 /* MODULE STYLES */
 
 /*# sourceMappingURL=app.css.map */
