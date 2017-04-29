@@ -290,5 +290,9 @@ a:hover .overlay {
       position: relative;
       margin-left: 25px; } }
 /* MODULE STYLES */
+/* MODAL STYLES */
+#icon-avatar {
+  width: 40%;
+  margin: 20px auto; }
 
 /*# sourceMappingURL=app.css.map */
