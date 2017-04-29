@@ -22,17 +22,17 @@
 		<!-- MODULES FOR SECTIONS -->
 			<div class="container" id="wrapper">
 				<div class="row" id="flex-wrapper">
-					<a class="sign sign1 col-md-3" data-toggle='modal' data-target='#myModal' href='#myModal'>
+					<a class="sign sign1 col-md-3" data-toggle='modal' data-target='#aboutModal' href='#aboutModal'>
 						<div class="overlay">
 							<h2 class="slideh2">About me</h2>
 						</div>
 					</a>
-					<a class="sign sign2 col-md-3">
+					<a class="sign sign2 col-md-3" data-toggle='modal' data-target='#photoModal' href='#photoModal'>
 						<div class="overlay">
 							<h2 class="slideh2">Photography</h2>
 						</div>
 					</a>
-					<a class="sign sign3 col-md-3">
+					<a class="sign sign3 col-md-3" data-toggle='modal' data-target='#guitarModal' href='#guitarModal'>
 						<div class="overlay">
 							<h2 class="slideh2">Guitar</h2>
 						</div>
@@ -47,7 +47,7 @@
 		<!-- END OF SECTIONS (MODALS BELOW) -->
 
 			<!-- ABOUT ME MODAL -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
@@ -68,7 +68,50 @@
 				</div>
 			<!-- END OF ABOUT ME MODAL -->
 
-			
+			<!-- PHOTO MODAL -->
+				<div class="modal fade" id="photoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Photography</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+							<div class="container" id="gallery-container">
+								<img src="img/photography/london.jpg" alt="London">
+								<img src="img/photography/waterfall.jpg" alt="Waterfall">
+								<img src="img/photography/bigben.jpg" alt="Big Ben">
+							</div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			<!-- END OF PHOTO MODAL -->
+
+			<!-- GUITAR MODAL -->
+				<div class="modal fade" id="guitarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Guitar videos</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+							<div class="container" id="video-gallery">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/2hh8OIxHqt4" frameborder="0" allowfullscreen></iframe>
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/9MzySWeQCc8" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			<!-- END OF GUITAR MODAL -->
 
 
 

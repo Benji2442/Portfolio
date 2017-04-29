@@ -295,4 +295,10 @@ a:hover .overlay {
   width: 40%;
   margin: 20px auto; }
 
+#gallery-container img {
+  margin-bottom: 20px; }
+
+#video-gallery iframe {
+  margin-bottom: 20px; }
+
 /*# sourceMappingURL=app.css.map */
