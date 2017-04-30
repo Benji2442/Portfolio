@@ -19,6 +19,7 @@
   </head>
   <body>
 
+		
 		<!-- MODULES FOR SECTIONS -->
 			<div class="container" id="wrapper">
 				<div class="row" id="flex-wrapper">
@@ -37,7 +38,7 @@
 							<h2 class="slideh2">Guitar</h2>
 						</div>
 					</a>
-					<a class="sign sign4 col-md-3">
+					<a class="sign sign4 col-md-3" data-toggle='modal' data-target='#codingModal' href='#codingModal'>
 						<div class="overlay">
 							<h2 class="slideh2">Coding</h2>
 						</div>
@@ -51,7 +52,7 @@
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">About me</h5>
+				        <h5 class="modal-title display-4" id="exampleModalLabel">About me</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
@@ -73,15 +74,28 @@
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">Photography</h5>
+				        <h5 class="modal-title display-4" id="exampleModalLabel">Photography</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
 				      </div>
 							<div class="container" id="gallery-container">
-								<img src="img/photography/london.jpg" alt="London">
-								<img src="img/photography/waterfall.jpg" alt="Waterfall">
+								<br>
+								<h2 class="lead">London</h2>
+								<br>
+								<img class="overlay" src="img/photography/london.jpg" alt="London">
 								<img src="img/photography/bigben.jpg" alt="Big Ben">
+								<img src="img/photography/towerbridge.jpg" alt="Tower Bridge">
+								<img src="img/photography/kingscross.jpg" alt="Kings Cross Station">
+								<hr>
+								<h2 class="lead">Landscapes</h2>
+								<br>
+								<img src="img/photography/waterfall.jpg" alt="Waterfall">
+								<img src="img/photography/knaresborough.jpg" alt="Knaresborough">
+								<img src="img/photography/waterfall2.jpg" alt="Waterfall">
+								<img src="img/photography/boltonabbey.jpg" alt="Bolton Abbey">
+								<img src="img/photography/tree.jpg" alt="Tree">
+								<img src="img/photography/butterfly.jpg" alt="Butterfly">
 							</div>
 				      <div class="modal-footer">
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -96,12 +110,14 @@
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">Guitar videos</h5>
+				        <h5 class="modal-title display-4" id="exampleModalLabel">Guitar videos</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
 				      </div>
 							<div class="container" id="video-gallery">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/GF1mTd9zUog" frameborder="0" allowfullscreen></iframe>
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/pUbqms08Q0c" frameborder="0" allowfullscreen></iframe>
 								<iframe width="100%" height="315" src="https://www.youtube.com/embed/2hh8OIxHqt4" frameborder="0" allowfullscreen></iframe>
 								<iframe width="100%" height="315" src="https://www.youtube.com/embed/9MzySWeQCc8" frameborder="0" allowfullscreen></iframe>
 							</div>
@@ -113,7 +129,31 @@
 				</div>
 			<!-- END OF GUITAR MODAL -->
 
-
+			<!-- CODING MODAL -->
+				<div class="modal fade" id="codingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title display-4" id="exampleModalLabel">Websites</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+							<div id="webcard" class="card" style="width: 20rem;">
+								<img class="card-img-top" src="img/tycm.jpg" alt="Card image cap">
+								<div class="card-block">
+									<h4 class="card-title">The Yorkshire Cake Man</h4>
+									<p class="card-text">This was the first website I ever built. I had spent some time working on html, css and sass and really wanted to test my skills, this was the perfect test! I learnt so much doing this website and I think it turned out well. My main objective was to show off as much of the product as possible, adding plenty of responsive slide galleries so that the photos looked great no matter what screen size.</p>
+									<a href="#" class="btn btn-primary">Visit website</a>
+								</div>
+								</div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			<!-- END OF CODING MODAL -->
 
 
 
