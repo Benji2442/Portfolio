@@ -190,8 +190,8 @@ h1 {
 /* LAYOUT STYLES */
 /* ARTICLE STYLES */
 #wrapper {
-  height: 90vh;
-  margin-top: 5vh; }
+  height: 60vh;
+  padding-top: 20vh; }
   #wrapper #flex-wrapper {
     display: flex;
     flex-direction: row; }
@@ -207,7 +207,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 80vh; }
+  height: 60vh; }
   .sign1:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -217,11 +217,11 @@ h1 {
 .sign2 {
   background-image: url("img/camera.jpg");
   background-color: #99ff99;
-  background-position: -320px 0px;
+  background-position: -250px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 80vh; }
+  height: 60vh; }
   .sign2:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -235,7 +235,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 80vh; }
+  height: 60vh; }
   .sign3:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -249,7 +249,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 80vh; }
+  height: 60vh; }
   .sign4:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
