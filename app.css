@@ -190,15 +190,10 @@ h1 {
 /* LAYOUT STYLES */
 /* ARTICLE STYLES */
 #wrapper {
-  height: 60vh;
   padding-top: 20vh; }
   #wrapper #flex-wrapper {
     display: flex;
     flex-direction: row; }
-
-.sign {
-  display: inline-block;
-  position: relative; }
 
 .sign1 {
   background-image: url("img/avatar.jpg");
