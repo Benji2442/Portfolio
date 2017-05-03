@@ -190,7 +190,7 @@ h1 {
 /* LAYOUT STYLES */
 /* ARTICLE STYLES */
 #wrapper {
-  padding-top: 20vh; }
+  padding-top: 0vh; }
   #wrapper #flex-wrapper {
     display: flex;
     flex-direction: row; }
@@ -202,7 +202,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 60vh; }
+  height: 100vh; }
   .sign1:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -216,7 +216,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 60vh; }
+  height: 100vh; }
   .sign2:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -230,7 +230,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 60vh; }
+  height: 100vh; }
   .sign3:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -244,7 +244,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 60vh; }
+  height: 100vh; }
   .sign4:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -265,8 +265,9 @@ h1 {
     transform: rotate(90deg);
     transform-origin: top left 0;
     width: 100%;
-    margin-left: 75px;
-    margin-top: 10px; }
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 200px; }
     .overlay h2::first-letter {
       font-size: 2em;
       padding-right: 2px; }
