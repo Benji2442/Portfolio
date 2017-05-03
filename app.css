@@ -190,8 +190,7 @@ h1 {
 /* LAYOUT STYLES */
 /* ARTICLE STYLES */
 #wrapper {
-  padding-top: 0vh;
-  overflow: hidden; }
+  padding-top: 0vh; }
   #wrapper #flex-wrapper {
     display: flex;
     flex-direction: row; }
@@ -203,7 +202,8 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 100vh; }
+  height: 100vh;
+  order: -1; }
   .sign1:hover {
     transform: scale(1.08);
     box-shadow: -2px 3px 98px -24px rgba(0, 0, 0, 0.75);
@@ -287,7 +287,16 @@ a:hover .overlay {
       position: relative;
       margin-left: 25px; }
     .sign:hover {
-      transform: none; } }
+      transform: none; }
+
+  .sign4 {
+    order: 1; }
+
+  .sign2 {
+    order: 2; }
+
+  .sign3 {
+    order: 2; } }
 /* MODULE STYLES */
 /* MODAL STYLES */
 #icon-avatar {
