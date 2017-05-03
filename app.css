@@ -190,7 +190,8 @@ h1 {
 /* LAYOUT STYLES */
 /* ARTICLE STYLES */
 #wrapper {
-  padding-top: 0vh; }
+  padding-top: 0vh;
+  overflow: hidden; }
   #wrapper #flex-wrapper {
     display: flex;
     flex-direction: row; }
@@ -266,7 +267,7 @@ h1 {
     transform-origin: top left 0;
     width: 100%;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 85px;
     margin-top: 200px; }
     .overlay h2::first-letter {
       font-size: 2em;
@@ -279,7 +280,7 @@ a:hover .overlay {
 /* MEDIA QUERY STYLES */
 @media screen and (max-width: 767px) {
   .sign {
-    height: 20vh;
+    height: 100vh;
     background-position: center; }
     .sign h2 {
       transform: rotate(0deg);
