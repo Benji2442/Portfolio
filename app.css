@@ -283,13 +283,13 @@ a:hover .overlay {
 @media screen and (max-width: 767px) {
   .sign {
     height: 100vh;
-    background-position: center; }
+    background-position: center;
+    display: flex; }
     .sign h2 {
       transform: rotate(0deg);
       position: relative;
-      margin: auto;
-      vertical-align: middle;
-      margin-top: 50%; }
+      margin: 50% auto;
+      align-items: center; }
     .sign:hover {
       transform: none; }
 
