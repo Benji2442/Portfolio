@@ -190,8 +190,10 @@ h1 {
 /* LAYOUT STYLES */
 /* ARTICLE STYLES */
 #wrapper {
-  padding-top: 0vh; }
+  padding-top: 0vh;
+  overflow: hidden; }
   #wrapper #flex-wrapper {
+    overflow: hidden;
     display: flex;
     flex-direction: row; }
 
@@ -285,7 +287,9 @@ a:hover .overlay {
     .sign h2 {
       transform: rotate(0deg);
       position: relative;
-      margin-left: 25px; }
+      margin: auto;
+      vertical-align: middle;
+      margin-top: 50%; }
     .sign:hover {
       transform: none; }
 
